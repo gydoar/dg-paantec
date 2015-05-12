@@ -1,0 +1,238 @@
+/*
+Theme Name: Degris-paantec
+Theme URI: https://github.com/gydoar/suwwweb
+Author: degris
+Author URI: http://degris.com/
+Description: Tema base para los desarrollos futuros de todos los clientes.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: wordpress, html5, css3, jquery, javascript, suwwweb
+*/
+
+/*------------------------------------*\
+    $CONTENIDO
+\*------------------------------------*/
+/**
+ * CONTENIDO...........Lo estás leyendo!!
+ * INCLUDE CSS...............Establece los valores iniciales
+ * FONT-FACE...........Importamos fuentes de iconos y font-face
+ * STYLES..............
+ * MEDIA-QUERIES.......
+ */
+
+/*------------------------------------*\
+    $INCLUDE CSS
+\*------------------------------------*/
+@import url(library/css/normalize.css);
+@import url(library/css/skeleton.css);
+@import url(library/css/meanmenu.css);
+
+
+
+
+/*------------------------------------*\
+    $STYLES
+\*------------------------------------*/
+	img{
+		max-width: 100%;
+		height: auto;
+	}
+	iframe{
+		font-family: "Futura BT", Verdana, Geneva, sans-serif;
+	}
+.front__page{
+	background: url(library/img/fondo_paantec.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	min-height: 1049px;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+			-moz-background-size: 100%;
+				-o-background-size: 100%;
+	background-size: cover;
+	text-align: center;
+}
+.font__page__logo img{
+	padding-top: 100px;
+}
+.nav{
+	background-color: rgba(22,37,72,0.8);
+
+}
+	.nav_list li{
+		display: inline-block;
+		margin-bottom: 0px;
+		padding: 10px;
+	}
+		.nav_list li a{
+			padding: 15px;
+			text-decoration: none;
+			color: #ffffff;
+			font-size: 18px;
+			font-weight: 300;
+		}
+			.nav_list li a:hover, .nav_list li a:focus, .nav_list li a:active,.nav_list li a:checked{
+				background: url(library/img/hover_menu.png);
+				background-repeat: no-repeat;
+				background-position: center center;
+				width: 100%;
+				background-position-y:2px; 
+			}
+.front__page__animacion{
+	margin-top: 100px;
+	margin-bottom: -7px;
+}
+
+
+.header{
+	background: url(library/img/malla.jpg);
+	background-attachment: relative;
+	min-height: 200px;
+	overflow: hidden;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+			-moz-background-size: 100%;
+				-o-background-size: 100%;
+	background-size: cover;
+	text-align: center;
+}
+	.header img{
+		padding-top: 20px;
+	}
+
+.page__background{
+	margin-top: -30px;
+	background: url(library/img/fondo_paantec.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	min-height: 100%;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+			-moz-background-size: 100%;
+				-o-background-size: 100%;
+	background-size: cover;
+
+}
+.color__content{
+	background: url(library/img/fondo_degradado.png);
+	height: 100%;
+	width: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding-top: 10px;
+}
+.content__admin{
+	line-height: 18px;
+	padding: 30px 20px;
+}
+	.content__admin form{
+		text-align: center;
+		margin-top: 30px;
+	}
+	.content__admin iframe{
+		text-align: center;
+		max-width: 100%;
+	}
+.btns-inicio{
+	text-align: center;
+}
+.btns-inicio li{
+	display: inline-block;
+	list-style: none;
+	padding: 0px 20px;
+}
+
+.ascensor{
+	background: url(library/img/ascensor.png);
+	background-repeat: no-repeat;
+	min-height: 600px;
+	width: 100%;
+	background-size:center;
+}
+	.ascensor img{
+		text-align: center;
+		float: center;
+		padding-bottom: 20px;
+		padding-top: 20px;
+		padding-left: 10px;
+
+	}
+.ascensor li{
+
+	background: url(library/img/btn-asc.png) no-repeat 0px 0px transparent;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 10px 10px 40px;
+    vertical-align: middle;
+}
+	.ascensor li a{
+		text-decoration: none;
+		margin: 0px;
+		color: gray;
+		text-shadow:1px 1px 1px #ffffff;
+		font-weight: 300;
+	}
+		.ascensor li ul{
+			margin: 0px;
+		}
+		.ascensor li ul li{
+			list-style: none;
+			display: none;
+		}
+.direcciones__contacto{
+	text-align: center;
+	padding-top: 10px;
+}
+
+	.direcciones__contacto h6{
+		margin-bottom: 3px;
+	}
+	.direcciones__contacto:last-child h6{
+		padding-top: 40px;
+	}
+	.direcciones__contacto p{
+		margin-bottom: 0px;
+	}
+
+
+footer{}
+
+.copyright{
+    background: #32a7d1;
+    font-size: 12px;
+	text-align: center;
+}
+.copyright a{
+    color: #000000;
+	text-decoration: none;
+	
+}
+
+
+
+
+
+/*------------------------------------*\
+    $MEDIA-QUERIES
+\*------------------------------------*/
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
