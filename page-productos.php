@@ -31,6 +31,8 @@
 					</li>
 
 					<li><a href="">Escaleras eléctricas y andenes móviles</a></li>
+
+					<a href=""><img src="<?php bloginfo('template_url' ); ?>/library/img/btn-top.png" alt=""></a>
 				</ul>
 			</div>
 			<div class="nine columns">

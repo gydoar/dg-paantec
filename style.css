@@ -28,9 +28,6 @@ Tags: wordpress, html5, css3, jquery, javascript, suwwweb
 @import url(library/css/skeleton.css);
 @import url(library/css/meanmenu.css);
 
-
-
-
 /*------------------------------------*\
     $STYLES
 \*------------------------------------*/
@@ -148,43 +145,57 @@ Tags: wordpress, html5, css3, jquery, javascript, suwwweb
 	padding: 0px 20px;
 }
 
-.ascensor{
-	background: url(library/img/ascensor.png);
+.ascensor, .ascensor2{
+	background: url(library/img/ascensor_1.png);
 	background-repeat: no-repeat;
-	min-height: 600px;
+	min-height: 520px;
 	width: 100%;
-	background-size:center;
+	background-size:100%;
+	padding-left: 20px;
 }
-	.ascensor img{
+	.ascensor img, .ascensor2 img{
 		text-align: center;
 		float: center;
-		padding-bottom: 20px;
+		padding-bottom: 40px;
 		padding-top: 20px;
-		padding-left: 10px;
+		padding-left: 20px;
 
 	}
-.ascensor li{
+	.ascensor img:last-child, .ascensor2 img:last-child {
+		margin-left: 60px;
+		padding-top: 0px;
+	}
+.ascensor li, .ascensor2 li{
 
 	background: url(library/img/btn-asc.png) no-repeat 0px 0px transparent;
     list-style-type: none;
     margin: 0;
-    padding: 0px 10px 10px 40px;
+    padding: 0px 10px 30px 40px;
     vertical-align: middle;
+    margin-bottom: 10px;
 }
-	.ascensor li a{
+.ascensor2 li{
+	padding: 0px 1px 10px 30px;
+}
+	.ascensor li:hover, .ascensor2 li:hover{
+		background: url(library/img/btn-asc_hover.png) no-repeat 0px 0px transparent;
+	}
+	.ascensor li a, .ascensor2 li a{
 		text-decoration: none;
 		margin: 0px;
 		color: gray;
 		text-shadow:1px 1px 1px #ffffff;
 		font-weight: 300;
 	}
-		.ascensor li ul{
+
+		.ascensor li ul, .ascensor2 li ul{
 			margin: 0px;
 		}
-		.ascensor li ul li{
+		.ascensor li ul li, .ascensor2 li ul li{
 			list-style: none;
 			display: none;
 		}
+
 .direcciones__contacto{
 	text-align: center;
 	padding-top: 10px;
@@ -195,6 +206,7 @@ Tags: wordpress, html5, css3, jquery, javascript, suwwweb
 	}
 	.direcciones__contacto:last-child h6{
 		padding-top: 40px;
+		padding-bottom: 0px;
 	}
 	.direcciones__contacto p{
 		margin-bottom: 0px;

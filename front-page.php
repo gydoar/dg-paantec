@@ -4,7 +4,7 @@
 	<div class="front__page">
 		<div class="container">
 			<div class="font__page__logo">
-				<h1><a href="#"><img  src="<?php bloginfo('template_url' ); ?>/library/img/logo_index.png" alt=""></a></h1>
+				<h1><a href="<?php echo home_url('/' ); ?>"><img  src="<?php bloginfo('template_url' ); ?>/library/img/logo_index.png" alt=""></a></h1>
 			</div>
 		</div>
 

@@ -31,7 +31,7 @@
 <body>
 
 <header class="header">
-	<h1><a href=""><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/logo.png" alt=""></a></h1></a>
+	<h1><a href="<?php echo home_url('/' ); ?>"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/logo.png" alt=""></a></h1></a>
 
 	<!-- Memu -->
 		<div>

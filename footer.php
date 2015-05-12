@@ -16,7 +16,9 @@
 jQuery(document).ready(function () {
     jQuery('.nav').meanmenu();
 });
+
 </script>
+
 
 	<!--/ Menu responsive -->
 

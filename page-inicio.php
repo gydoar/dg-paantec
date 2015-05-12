@@ -16,7 +16,7 @@
 		<!-- Botones -->
 		<div>
 			<ul class="btns-inicio">
-				<li><a class="fancybox" href=""><img src="<?php bloginfo('template_url' ); ?>/library/img/botones/mision.png" alt=""></a></li>
+				<li><a href="#" data-reveal-id="myModal"><img src="<?php bloginfo('template_url' ); ?>/library/img/botones/mision.png" alt=""></a></li>
 
 				<li><a href="#"><img src="<?php bloginfo('template_url' ); ?>/library/img/botones/vision.png" alt=""></a></li>
 
@@ -27,5 +27,4 @@
 
 	
 </div>
-
 <?php get_footer(); ?>
