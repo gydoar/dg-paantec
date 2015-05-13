@@ -1,74 +1,58 @@
-<?php get_header(); ?>		
-				<!-- post 1 -->
-				<?php rewind_posts(); ?>
-				<div class="#porque-modernizar">
-					<?php $recent = new WP_Query('page_id=136'); while($recent->have_posts()) : $recent->the_post();?>
-					       <h3><?php the_title(); ?></h3>
-					       <?php the_content(); ?>
-					<?php endwhile; ?>
-				</div>
+<?php
+/*
+ * Template Name: Page Modernizacion interna 
+ * Description: A Page Template with a darker design.
+ */
 
-				<!-- post 2 -->
-				<?php rewind_posts(); ?>
-				<div class="#ubicacion-elementos">
-					<?php $recent = new WP_Query('page_id=140'); while($recent->have_posts()) : $recent->the_post();?>
-					       <h3><?php the_title(); ?></h3>
-					       <?php the_content(); ?>
-					<?php endwhile; ?>
-				</div>
+?>
 
-				<!-- post 3 -->
-				<?php rewind_posts(); ?>
-				<div class="#control-electrico">
-					<?php $recent = new WP_Query('page_id=144'); while($recent->have_posts()) : $recent->the_post();?>
-					       <h3><?php the_title(); ?></h3>
-					       <?php the_content(); ?>
-					<?php endwhile; ?>
-				</div>
+<?php get_header('inicio'); ?>
 
-				<!-- post 4 -->
-				<?php rewind_posts(); ?>
-				<div class="#resultados">
-					<?php $recent = new WP_Query('page_id=152'); while($recent->have_posts()) : $recent->the_post();?>
-					       <h3><?php the_title(); ?></h3>
-					       <?php the_content(); ?>
-					<?php endwhile; ?>
-				</div>
+<div class="page__background">
+	<div class="container color__content">
+		
+		<div class="content__admin">
+			<div class="three columns">
+				<ul class="ascensor2">
+					<img width="150" src="<?php bloginfo('template_url' ); ?>/library/img/logo.png" alt="">
+					<li><a href="<?php echo home_url('/modernizacion-int/por-que-modernizar/' ); ?>">Modernizar tu ascensor</a></li>
 
-				<!-- post 5 -->
-				<?php rewind_posts(); ?>
-				<div class="#moder-cabina">
-					<?php $recent = new WP_Query('page_id=158'); while($recent->have_posts()) : $recent->the_post();?>
-					       <h3><?php the_title(); ?></h3>
-					       <?php the_content(); ?>
-					<?php endwhile; ?>
-				</div>
+					<li><a href="<?php echo home_url('/modernizacion-int/ubicacion-de-elementos/' ); ?>">Ubicación de elementos</a></li>
 
-				<!-- post 6 -->
-				<?php rewind_posts(); ?>
-				<div class="#remodel-cabina">
-					<?php $recent = new WP_Query('page_id=161'); while($recent->have_posts()) : $recent->the_post();?>
-					       <h3><?php the_title(); ?></h3>
-					       <?php the_content(); ?>
-					<?php endwhile; ?>
-				</div>
+					<li><a href="<?php echo home_url('/midernizacion-int/modernizacion-de-control-electrico' ); ?>">Modernización de Contro Eléctrico</a></li>
 
-					<!-- post 7 -->
-				<?php rewind_posts(); ?>
-				<div class="#elem-actualizar">
-					<?php $recent = new WP_Query('page_id=167'); while($recent->have_posts()) : $recent->the_post();?>
-					       <h3><?php the_title(); ?></h3>
-					       <?php the_content(); ?>
-					<?php endwhile; ?>
-				</div>
+					<li><a href="<?php echo home_url('/modernizacion-int/resultados-visibles/' ); ?>">Resultados visibles</a></li>
 
-				<!-- post 7 -->
-				<?php rewind_posts(); ?>
-				<div class="#elem-actualizar2">
-					<?php $recent = new WP_Query('page_id=169'); while($recent->have_posts()) : $recent->the_post();?>
-					       <h3><?php the_title(); ?></h3>
-					       <?php the_content(); ?>
-					<?php endwhile; ?>
-				</div>
+					<li><a href="<?php echo home_url('modernizacion-int/modernizar-la-cabina-del-ascensor/') ?>">Modernizar la cabina del ascensor</a></li>
+
+					<li><a href="<?php echo home_url('/modernizacion-int/remodelacion-de-cabina/' ); ?>">Remodelación de Cabina</a></li>
+
+					<li><a href="<?php echo home_url('/modernizacion-int/elementos-de-seguridad-a-actulizar/' ); ?>">Elementos de seguridad a actualizar</a></li>
+
+					<li><a href="<?php echo home_url('/modernizacion-int/actualizacion-de-elementos-de-seguridad/' ); ?>">Actialización de elementos de seguridad</a></li>
+
+					<a href="<?php echo home_url('/modernizacion-int/actualizacion-de-elementos-de-seguridad' ); ?>"><img src="<?php bloginfo('template_url' ); ?>/library/img/btn-top.png" alt=""></a>
+				</ul>
+			</div>
+			<div class="nine columns">
+				
+				 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+					
+					<h4><?php the_title(); ?></h4>
+
+					<?php the_content(); ?>
+
+				 <?php endwhile; else : ?>
+					<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+				 <?php endif; ?>
+
+			</div>
+		</div>
+
+		
+	</div>
+
+	
+</div>
 
 <?php get_footer(); ?>

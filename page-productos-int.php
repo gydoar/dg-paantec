@@ -1,100 +1,67 @@
+<?php
+/*
+ * Template Name: Page Productos interna 
+ * Description: A Page Template with a darker design.
+ */
 
-				<?php rewind_posts(); ?>
-				<div class="#productos">
-					<?php $recent = new WP_Query('page_id=45'); while($recent->have_posts()) : $recent->the_post();?>
-					       <h3><?php the_title(); ?></h3>
-					       <?php the_content(); ?>
-					<?php endwhile; ?>
-				</div>
+?>
+
+<?php get_header('inicio'); ?>
+
+<div class="page__background">
+	<div class="container color__content">
+		
+		<div class="content__admin">
+			<div class="three columns">
+				<ul class="ascensor">
+					<img width="150" src="<?php bloginfo('template_url' ); ?>/library/img/logo.png" alt="">
+					<li><a href="<?php echo home_url('/productos-int/ascensores' ); ?>">Ascensores</a>
+						<ul>
+							<li><a href="<?php echo home_url('/productos-int#electromecanicos') ?>">Electromecánicos</a></li>
+							<li><a href="">Hidráulicos</a></li>
+						</ul>
+					</li>
+
+					<li><a href="<?php echo home_url('/productos-int/equipos-para-discapacitados/' ); ?>">Equipos para discapacitados</a>
+						<ul>
+							<li><a href="">Plataforma salva escaleras</a></li>
+							<li><a href="">Plataforma elevadora</a></li>
+						</ul>
+					</li>
+
+					<li><a href="<?php echo home_url('/productos-int/montacargas/' ); ?>">Montacargas</a></li>
+
+					<li><a href="<?php echo home_url('/productos-int/sistemas-para-vehiculos/' ); ?>">Sistema para Vehículos</a>
+						<ul>
+							<li><a href="">Montacoches</a></li>
+							<li><a href="">Sistemas de parqueo</a></li>
+						</ul>
+					</li>
+
+					<li><a href="<?php echo home_url('/productos-int/escaleras-electricas-y-andenes-moviles' ); ?>">Escaleras eléctricas y andenes móviles</a></li>
+
+					<a href=""><img src="<?php bloginfo('template_url' ); ?>/library/img/btn-top.png" alt=""></a>
+				</ul>
+			</div>
+			<div class="nine columns">
+
+				 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 					
-				<!-- Pagina 2 -->
-				<div id="#ascensores">
-					<?php rewind_posts(); ?>
-					<?php $recent = new WP_Query('page_id=48'); while($recent->have_posts()) : $recent->the_post();?>
-					       <h3><?php the_title(); ?></h3>
-					       <?php the_content(); ?>
-					<?php endwhile; ?>
-				</div>
+					<h4><?php the_title(); ?></h4>
 
-				<!-- Pagina 3 -->
-				<div id="#electromecanicos">
-					<?php rewind_posts(); ?>
-					<?php $recent = new WP_Query('page_id=64'); while($recent->have_posts()) : $recent->the_post();?>
-					       <h3><?php the_title(); ?></h3>
-					       <?php the_content(); ?>
-					<?php endwhile; ?>
-				</div>
+					<?php the_content(); ?>
 
-				<!-- Pagina 4 -->
-				<div id="#hidraulicos">
-					<?php rewind_posts(); ?>
-					<?php $recent = new WP_Query('page_id=67'); while($recent->have_posts()) : $recent->the_post();?>
-					       <h3><?php the_title(); ?></h3>
-					       <?php the_content(); ?>
-					<?php endwhile; ?>
-				</div>
+				 <?php endwhile; else : ?>
+					<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+				 <?php endif; ?>
+				
+			</div>
+		</div>
 
-				<!-- Pagina 5 -->
-				<div id="#discapacitados">
-					<?php rewind_posts(); ?>
-					<?php $recent = new WP_Query('page_id=71'); while($recent->have_posts()) : $recent->the_post();?>
-					       <h3><?php the_title(); ?></h3>
-					       <?php the_content(); ?>
-					<?php endwhile; ?>
-				</div>
+		
+	</div>
 
-				<!-- Pagina 6 -->
-				<div id="#salva-escalera">
-					<?php rewind_posts(); ?>
-					<?php $recent = new WP_Query('page_id=81'); while($recent->have_posts()) : $recent->the_post();?>
-					       <h3><?php the_title(); ?></h3>
-					       <?php the_content(); ?>
-					<?php endwhile; ?>
-				</div>
-
-				<!-- Pagina 7 -->
-				<div id="#montacargas">
-					<?php rewind_posts(); ?>
-					<?php $recent = new WP_Query('page_id=84'); while($recent->have_posts()) : $recent->the_post();?>
-					       <h3><?php the_title(); ?></h3>
-					       <?php the_content(); ?>
-					<?php endwhile; ?>
-				</div>
-
-				<!-- Pagina 8 -->
-				<div id="#sis-vehiculos">
-					<?php rewind_posts(); ?>
-					<?php $recent = new WP_Query('page_id=89'); while($recent->have_posts()) : $recent->the_post();?>
-					       <h3><?php the_title(); ?></h3>
-					       <?php the_content(); ?>
-					<?php endwhile; ?>
-				</div>
-
-				<!-- Pagina 9 -->
-				<div id="#montacoches">
-					<?php rewind_posts(); ?>
-					<?php $recent = new WP_Query('page_id=92'); while($recent->have_posts()) : $recent->the_post();?>
-					       <h3><?php the_title(); ?></h3>
-					       <?php the_content(); ?>
-					<?php endwhile; ?>
-				</div>
-
-				<!-- Pagina 10 -->
-				<div id="#sis-parqueo">
-					<?php rewind_posts(); ?>
-					<?php $recent = new WP_Query('page_id=95'); while($recent->have_posts()) : $recent->the_post();?>
-					       <h3><?php the_title(); ?></h3>
-					       <?php the_content(); ?>
-					<?php endwhile; ?>
-				</div>
-
-				<!-- Pagina 10 -->
-				<div id="#esc-electricasd">
-					<?php rewind_posts(); ?>
-					<?php $recent = new WP_Query('page_id=99'); while($recent->have_posts()) : $recent->the_post();?>
-					       <h3><?php the_title(); ?></h3>
-					       <?php the_content(); ?>
-					<?php endwhile; ?>
-				</div>
+	
+</div>
 
 <?php get_footer(); ?>
