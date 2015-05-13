@@ -13,18 +13,7 @@
 			<?php endif; ?>
 		</div>
 
-		<!-- Botones -->
-		<div>
-			<ul class="btns-inicio">
-				<li><a href="#" data-reveal-id="myModal"><img src="<?php bloginfo('template_url' ); ?>/library/img/botones/mision.png" alt=""></a></li>
-
-				<li><a href="#"><img src="<?php bloginfo('template_url' ); ?>/library/img/botones/vision.png" alt=""></a></li>
-
-				<li><a href="#"><img src="<?php bloginfo('template_url' ); ?>/library/img/botones/objetivos.png" alt=""></a></li>
-			</ul>
-		</div>
 	</div>
-
 	
 </div>
 <?php get_footer(); ?>
