@@ -46,12 +46,12 @@ add_action( 'admin_head', 'admin_head_example' );
 /*------------------------------------*\
     INFORMACIÓN DE CONTACTO FOOTER
 \*------------------------------------*/
-function bones_custom_admin_footer() {
+/*function bones_custom_admin_footer() {
 	_e( '<span id="footer-thankyou">Desarrollado por <a href="http://suwwweb.com" target="_blank">suWWWeb |</a></span> Contacto: <a href="mailto:soporte@suwwweb.com">soporte@suwwweb.com</a> | Tel: (+57) 1 3000 754 / 755 | Bogotá - Colombia', 'bonestheme' );
 }
 
 add_filter( 'admin_footer_text', 'bones_custom_admin_footer' );
-
+*/
 
 /*------------------------------------*\
     ACTIVAR BOTONES EN EDITOR DE TEXTO
@@ -101,10 +101,10 @@ add_filter( 'gettext', 'addEmailToLogin', 20, 3 );
     LOGO FORMULARIO AUTENTICACIÓN
 \*------------------------------------*/
 // Gargar css del formulario de autenticacion
-function bones_login_css() {
+/*function bones_login_css() {
 	wp_enqueue_style( 'bones_login_css', get_template_directory_uri() . '/library/css/login.css', false);
 }
-
+*/
 // Cargar url link del logo
 function bones_login_url() {  return home_url('/'); }
 
@@ -196,7 +196,7 @@ add_action('wp_dashboard_setup', 'example_remove_dashboard_widgets' );
 /*------------------------------------*\
     WIDGET PARA EL ESCRITORIO
 \*------------------------------------*/
-function custom_dashboard_widget() { ?>
+/*function custom_dashboard_widget() { ?>
             <img src="<?php bloginfo('template_directory'); ?>/images/logo.png" />     
             <h1>¡Hola! Este es tu área personal en la web XXXX</h1>
             <p>Aquí va todo el texto que quieras, con todo el HTML que precises</p>
@@ -207,7 +207,7 @@ add_action( 'wp_dashboard_setup', 'my_dashboard_setup_function' );
 function my_dashboard_setup_function() {
     add_meta_box( 'my_dashboard_widget', 'Biembenido al escritorio de suWWWeb', 'custom_dashboard_widget', 'dashboard', 'normal', 'high' );
 }
-
+*/
 
 /*------------------------------------*\
     REMPLAZAR NOMBRES DEL MENU
