@@ -34,9 +34,9 @@
     if(!isset($hasError)) {
         $emailTo = get_option('tz_email');
         if (!isset($emailTo) || ($emailTo == '') ){
-            $emailTo = 'handres@degrisdigital.com';
+            $emailTo = 'info@paantec.com';
         }
-        $subject = '[Contacto axemos] From '.$name;
+        $subject = '[Contacto Paantec] From '.$name;
         $body = "Nombre: $name \n\nEmail: $email \n\nTeléfino: $telefono \n\nComments: $comments";
         $headers = 'From: '.$name.' <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
         wp_mail($emailTo, $subject, $body, $headers);
