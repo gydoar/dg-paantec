@@ -11,8 +11,54 @@
 			<?php endwhile; else : ?>
 				<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
 			<?php endif; ?>
-		</div>
 
+			<ul class="buttom_inicio">
+				<li><a class="fancybox" href="#mision"><img src="<?php bloginfo('template_url' ); ?>/library/img/botones/mision.png" alt=""></a></li>
+				<li><a class="fancybox" href="#vision"><img src="<?php bloginfo('template_url' ); ?>/library/img/botones/vision.png" alt=""></a></li>
+				<li><a class="fancybox" href="#objetivos"><img src="<?php bloginfo('template_url' ); ?>/library/img/botones/objetivos.png" alt=""></a></li>
+			</ul>
+			<!-- Mision -->
+			<div class="container popup_inicio" id="mision">
+				<div class="eight columns">
+					<h3>Misión</h3>
+					<p>
+						<?php echo of_get_option('txt_mision'); ?>
+					</p>
+				</div>
+				<div class="four columns">
+					<img class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/img/mision_foto.jpg" alt="">
+				</div>
+				
+			</div>
+
+			<!-- Vision -->
+			<div class="container popup_inicio" id="vision">
+				<div class="eight columns">
+					<h3>Visión</h3>
+					<p>
+						<?php echo of_get_option('txt_vision'); ?>
+					</p>
+				</div>
+				<div class="four columns">
+					<img class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/img/mision_foto.jpg" alt="">
+				</div>
+				
+			</div>
+
+			<!-- Objetivos -->
+			<div class="container popup_inicio" id="objetivos">
+				<div class="eight columns">
+					<h3>Objetivos</h3>
+					<p>
+						<?php echo of_get_option('txt_objetivos'); ?>
+					</p>
+				</div>
+				<div class="four columns">
+					<img class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/img/mision_foto.jpg" alt="">
+				</div>
+				
+			</div>
+		</div>
 	</div>
 	
 </div>

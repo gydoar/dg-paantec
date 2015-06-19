@@ -27,6 +27,7 @@ Tags: wordpress, html5, css3, jquery, javascript, suwwweb
 @import url(library/css/normalize.css);
 @import url(library/css/skeleton.css);
 @import url(library/css/meanmenu.css);
+@import url(library/css/jquery.fancybox.css);
 
 /*------------------------------------*\
     $STYLES
@@ -143,6 +144,26 @@ Tags: wordpress, html5, css3, jquery, javascript, suwwweb
 	display: inline-block;
 	list-style: none;
 	padding: 0px 20px;
+}
+.buttom_inicio {
+	text-align: center;
+}
+.buttom_inicio li{
+	list-style: none;
+	display: inline-block;
+	margin: 0px 20px;
+}
+.popup_inicio h3{
+	color: #21386C;
+	font-weight: 400;
+	text-align: center;
+}
+.popup_inicio p{
+	text-align: justify;
+}
+.popup_inicio{
+	width:800px;
+	display: none;
 }
 
 .ascensor, .ascensor2{
@@ -350,7 +371,15 @@ a img.aligncenter {
 	@media only screen and (max-width: 767px) {}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.popup_inicio{
+			max-width: 100%;
+		}
+	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-	@media only screen and (max-width: 479px) {}
+	@media only screen and (max-width: 479px) {
+		.popup_inicio{
+			max-width: 100%;
+		}
+	}

@@ -94,6 +94,63 @@ function optionsframework_options() {
 	$options = array();
 
 	$options[] = array(
+		'name' => __( 'MISION - VISION - OBJETIVOS', 'theme-textdomain' ),
+		'type' => 'heading'
+	);
+
+	$options[] = array(
+		'name' => __( 'Misión', 'theme-textdomain' ),
+		'desc' => __( 'Texto Misión', 'theme-textdomain' ),
+		'id' => 'txt_mision',
+		'std' => '<p>En Paantec nos dedicamos a  la fabricación, instalación, modernización y mantenimiento de ascensores para pasajeros y carga, personalizamos el diseño acorde con las necesidades del cliente garantizando cumplimiento, seguridad, confiabilidad, durabilidad y soporte técnico permanente.<br><br>
+			Operamos desde 1979 con personal competente y comprometido con la satisfacción de nuestros clientes, buscando el bienestar y desarrollo integral de nuestros colaboradores,  generando rentabilidad a los accionistas, construyendo relaciones beneficiosas con proveedores y comprometidos con la responsabilidad social y crecimiento del país.</p>',
+		'type' => 'textarea'
+	);
+
+	$options[] = array(
+		'name' => __( 'Visión', 'theme-textdomain' ),
+		'desc' => __( 'Texto Visión', 'theme-textdomain' ),
+		'id' => 'txt_vision',
+		'std' => '<p>En el año 2017, Paantec. será una compañía líder en ventas de ascensores con requerimientos especiales, servicios de mantenimiento, soporte técnico y modernización brindando la mejor atención a sus clientes con procesos eficientes y el respaldo de  firmas extranjeras que nos proveen  productos tecnológicamente avanzados, confiables y seguros.</p>',
+		'type' => 'textarea'
+	);
+
+		$options[] = array(
+		'name' => __( 'Objetivos', 'theme-textdomain' ),
+		'desc' => __( 'Texto Objetivos', 'theme-textdomain' ),
+		'id' => 'txt_objetivos',
+		'std' => '<p>Principios y valores
+
+			1. JUNTOS TRABAJAMOS POR UN MISMO FIN 
+			Somos concientes de la importancia de integrar las fuerzas y conocimientos de cada área para poder alcanzar los objetivos de la organización y lograr la satisfacción de nuestros clientes.
+
+			2. NOS COMPROMETEMOS CON NUESTROS CLIENTES.
+			Trabajamos por la seguridad, respaldo y cumplimiento de los requerimientos de nuestros clientes.
+
+			3. HACEMOS LAS COSAS BIEN
+			Todas nuestras acciones están regidas por parámetros de calidad, que nos permiten mejorar cada día.
+
+			4. LA DIGNIDAD HUMANA SE RESPALDA CON VALORES
+			La justicia, integridad, el respeto, la responsabilidad, la tolerancia y la honestidad son valores fundamentales para hacer posibles las relaciones de convivencia entre las personas ya que son una condición indispensable para el surgimiento de la confianza.
+
+			5. SOMOS UNA EMPRESA QUE ESCUCHA
+			Estamos dispuestos e interesados en escuchar las sugerencias, reclamos y dar soluciones efectivas. , por eso la comunicación es el común denominador con nuestros clientes, empleados, proveedores y todas las personas con las que interactuamos.
+
+			6. LA INNOVACIÓN NOS HACE CRECER 
+			Aportamos ideas creativas para mejorar los procesos internos de la organización así como también los equipos que fabricamos y modernizamos.         
+
+			7. CAPACITACIÓN Y DESARROLLO 
+			La capacitación es un factor muy importante en la vida de las personas, la educación significa progreso, por eso la organización apoya al personal para este fin. 
+
+			8. GENERACIÓN DE VALOR
+			Creemos que el éxito de los resultados de la empresa se convierte en una oportunidad para construir calidad de vida, generar crecimiento para nuestras familias,  valor para nuestra empresa y desarrollo para el país.
+			</p>',
+		'type' => 'textarea'
+	);
+
+
+	//Contacto
+	$options[] = array(
 		'name' => __( 'CONTACTENOS', 'theme-textdomain' ),
 		'type' => 'heading'
 	);
