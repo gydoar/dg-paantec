@@ -40,7 +40,7 @@
 					</p>
 				</div>
 				<div class="four columns">
-					<img class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/img/mision_foto.jpg" alt="">
+					<img class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/img/vision_foto.jpg" alt="">
 				</div>
 				
 			</div>
