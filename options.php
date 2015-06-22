@@ -119,32 +119,33 @@ function optionsframework_options() {
 		'name' => __( 'Objetivos', 'theme-textdomain' ),
 		'desc' => __( 'Texto Objetivos', 'theme-textdomain' ),
 		'id' => 'txt_objetivos',
-		'std' => '<p>Principios y valores
-
-			1. JUNTOS TRABAJAMOS POR UN MISMO FIN 
+		'std' => '<span style="font-size: 14pt;"><strong>Objetivos Principios y Valores</strong></span>
+			<br><br>
+			<strong>1. JUNTOS TRABAJAMOS POR UN MISMO FIN</strong>
+			<br>
 			Somos concientes de la importancia de integrar las fuerzas y conocimientos de cada área para poder alcanzar los objetivos de la organización y lograr la satisfacción de nuestros clientes.
+			<br><br>
 
-			2. NOS COMPROMETEMOS CON NUESTROS CLIENTES.
-			Trabajamos por la seguridad, respaldo y cumplimiento de los requerimientos de nuestros clientes.
+			<strong>2. NOS COMPROMETEMOS CON NUESTROS CLIENTES</strong><br>
+			Trabajamos por la seguridad, respaldo y cumplimiento de los requerimientos de nuestros clientes.<br><br>
 
-			3. HACEMOS LAS COSAS BIEN
-			Todas nuestras acciones están regidas por parámetros de calidad, que nos permiten mejorar cada día.
+			<strong>3. HACEMOS LAS COSAS BIEN</strong><br>
+			Todas nuestras acciones están regidas por parámetros de calidad, que nos permiten mejorar cada día.<br><br>
 
-			4. LA DIGNIDAD HUMANA SE RESPALDA CON VALORES
-			La justicia, integridad, el respeto, la responsabilidad, la tolerancia y la honestidad son valores fundamentales para hacer posibles las relaciones de convivencia entre las personas ya que son una condición indispensable para el surgimiento de la confianza.
+			<strong>4. LA DIGNIDAD HUMANA SE RESPALDA CON VALORES</strong><br>
+			La justicia, integridad, el respeto, la responsabilidad, la tolerancia y la honestidad son valores fundamentales para hacer posibles las relaciones de convivencia entre las personas ya que son una condición indispensable para el surgimiento de la confianza.<br><br>
 
-			5. SOMOS UNA EMPRESA QUE ESCUCHA
-			Estamos dispuestos e interesados en escuchar las sugerencias, reclamos y dar soluciones efectivas. , por eso la comunicación es el común denominador con nuestros clientes, empleados, proveedores y todas las personas con las que interactuamos.
+			<strong>5. SOMOS UNA EMPRESA QUE ESCUCHA</strong><br>
+			Estamos dispuestos e interesados en escuchar las sugerencias, reclamos y dar soluciones efectivas. , por eso la comunicación es el común denominador con nuestros clientes, empleados, proveedores y todas las personas con las que interactuamos.<br><br>
 
-			6. LA INNOVACIÓN NOS HACE CRECER 
-			Aportamos ideas creativas para mejorar los procesos internos de la organización así como también los equipos que fabricamos y modernizamos.         
+			<strong>6. LA INNOVACIÓN NOS HACE CRECER</strong><br>
+			Aportamos ideas creativas para mejorar los procesos internos de la organización así como también los equipos que fabricamos y modernizamos.<br><br>
 
-			7. CAPACITACIÓN Y DESARROLLO 
-			La capacitación es un factor muy importante en la vida de las personas, la educación significa progreso, por eso la organización apoya al personal para este fin. 
+			<strong>7. CAPACITACIÓN Y DESARROLLO</strong><br>
+			La capacitación es un factor muy importante en la vida de las personas, la educación significa progreso, por eso la organización apoya al personal para este fin.<br><br>
 
-			8. GENERACIÓN DE VALOR
-			Creemos que el éxito de los resultados de la empresa se convierte en una oportunidad para construir calidad de vida, generar crecimiento para nuestras familias,  valor para nuestra empresa y desarrollo para el país.
-			</p>',
+			<strong>8. GENERACIÓN DE VALOR</strong><br>
+			Creemos que el éxito de los resultados de la empresa se convierte en una oportunidad para construir calidad de vida, generar crecimiento para nuestras familias, valor para nuestra empresa y desarrollo para el país.',
 		'type' => 'textarea'
 	);
 

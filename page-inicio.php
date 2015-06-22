@@ -47,16 +47,12 @@
 
 			<!-- Objetivos -->
 			<div class="container popup_inicio" id="objetivos">
-				<div class="eight columns">
+				<div class="">
 					<h3>Objetivos</h3>
 					<p>
 						<?php echo of_get_option('txt_objetivos'); ?>
 					</p>
 				</div>
-				<div class="four columns">
-					<img class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/img/mision_foto.jpg" alt="">
-				</div>
-				
 			</div>
 		</div>
 	</div>
