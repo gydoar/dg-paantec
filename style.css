@@ -251,6 +251,18 @@ Tags: wordpress, html5, css3, jquery, javascript, suwwweb
 .email_form a:hover{
 	color: #656568;
 }
+
+.bottom_listado{
+	text-align: center;
+	margin-top: -70px;
+}
+.bottom_listado img{
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+
+
+
 footer{}
 
 .copyright{

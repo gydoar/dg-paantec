@@ -1,0 +1,26 @@
+<?php get_header('inicio'); ?>
+
+<div class="page__background">
+	<div class="container color__content">
+		
+		<div class="content__admin">
+			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+					
+				<?php the_content(); ?>
+
+			<?php endwhile; else : ?>
+				<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+			<?php endif; ?>
+		</div>
+
+		<div class="bottom_listado">
+			<img id="boton_cargar" src="<?php bloginfo('template_url' ); ?>/library/img/ver_listado.png" alt="">
+  
+			<div name="div_dinamico" id="div_dinamico" class="div_dinamico"></div> 
+		</div>
+
+	</div>
+
+	
+</div>
+<?php get_footer(); ?>

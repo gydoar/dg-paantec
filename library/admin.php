@@ -111,7 +111,7 @@ function bones_login_url() {  return home_url('/'); }
 // Cargar el texto Alt del logo
 function bones_login_title() { return get_option( 'blogname' ); }
 
-add_action( 'login_enqueue_scripts', 'bones_login_css', 10 );
+//add_action( 'login_enqueue_scripts', 'bones_login_css', 10 );
 add_filter( 'login_headerurl', 'bones_login_url' );
 add_filter( 'login_headertitle', 'bones_login_title' );
 

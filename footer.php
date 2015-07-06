@@ -12,6 +12,33 @@
 
 <!-- Scripts Adiconales -->
 
+<script>
+	
+	$(document).ready(function(){  
+
+		$('#boton_cargar').click(function() {  
+        $.ajax({  
+            url: '../wp-content/themes/dg-paantec/page-list-clientes.php', 
+            success: function(data) {  
+                $('#div_dinamico').html(data);  
+            }  
+       	 });  
+   		 });  
+
+		$('#boton_cargar_anim').click(function() {  
+	        $.ajax({  
+	            url: '../wp-content/themes/dg-paantec/README.txt',  
+	            success: function(data) {  
+	                $('#div_dinamico_anim').html(data);  
+	                $('#div_dinamico_anim div').slideDown(1000);  
+	            }  
+	        });  
+	    });  
+	}); 
+
+</script> 
+
+
 	<!-- Menu responsive -->
 <script>
 $(document).ready(function () {

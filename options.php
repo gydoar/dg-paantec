@@ -149,6 +149,15 @@ function optionsframework_options() {
 		'type' => 'textarea'
 	);
 
+	//Listado de clientes image
+	
+	$options[] = array(
+		'name' => __( 'Cargar listado de clientes IMG', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'cli_img',
+		'std' => '',
+		'type' => 'upload'
+	);
 
 	//Contacto
 	$options[] = array(
