@@ -13,3 +13,10 @@ register_nav_menus(
 			'footer-menu' => 'Menu pie' // secondary nav in footer
 		)
 	);
+
+/*------------------------------------*\
+    $HABILITAR SOPORTE PARA SIDEBAR
+\*------------------------------------*/
+register_sidebar (array(
+	'name' => 'sidebar',
+));

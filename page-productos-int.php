@@ -15,6 +15,7 @@
 			<div class="three columns">
 				<ul class="ascensor">
 					<img width="150" src="<?php bloginfo('template_url' ); ?>/library/img/logo.png" alt="">
+					<br><br>
 					<li><a href="<?php echo home_url('/productos-int/ascensores' ); ?>">Ascensores</a>
 						<ul>
 							<li><a href="<?php echo home_url('/productos-int#electromecanicos') ?>">Electromecánicos</a></li>
@@ -40,7 +41,6 @@
 
 					<li><a href="<?php echo home_url('/productos-int/escaleras-electricas-y-andenes-moviles' ); ?>">Escaleras eléctricas y andenes móviles</a></li>
 
-					<a href=""><img src="<?php bloginfo('template_url' ); ?>/library/img/btn-top.png" alt=""></a>
 				</ul>
 			</div>
 			<div class="nine columns">

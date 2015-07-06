@@ -13,7 +13,7 @@
 		
 		<div class="content__admin">
 			<div class="three columns">
-				<ul class="ascensor2">
+				<ul class="ascensor">
 					<img width="150" src="<?php bloginfo('template_url' ); ?>/library/img/logo.png" alt="">
 					<li><a href="<?php echo home_url('/modernizacion-int/por-que-modernizar/' ); ?>">Modernizar tu ascensor</a></li>
 
@@ -31,7 +31,6 @@
 
 					<li><a href="<?php echo home_url('/modernizacion-int/actualizacion-de-elementos-de-seguridad/' ); ?>">Actialización de elementos de seguridad</a></li>
 
-					<a href="<?php echo home_url('/modernizacion-int/actualizacion-de-elementos-de-seguridad' ); ?>"><img src="<?php bloginfo('template_url' ); ?>/library/img/btn-top.png" alt=""></a>
 				</ul>
 			</div>
 			<div class="nine columns">

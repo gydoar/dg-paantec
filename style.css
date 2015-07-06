@@ -79,6 +79,23 @@ Tags: wordpress, html5, css3, jquery, javascript, suwwweb
 				width: 100%;
 				background-position-y:2px; 
 			}
+.nav_list li ul{
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+	.nav_list li:hover ul{
+		display:block;
+	}
+	.nav_list li ul li{
+		position:relative;
+	}
+	.nav_list li ul li ul{
+		right:-140px;
+		top:0px;
+	}
+
+
 .front__page__animacion{
 	margin-top: 100px;
 	margin-bottom: -7px;
@@ -166,64 +183,47 @@ Tags: wordpress, html5, css3, jquery, javascript, suwwweb
 	display: none;
 }
 
-.ascensor, .ascensor2{
-	background: url(library/img/ascensor_1.png);
-	background-repeat: no-repeat;
-	min-height: 520px;
+
+/* Ascensor */
+ul.ascensor{
+	padding-top: 20px;
+}
+.ascensor{
+
+	background: url(library/img/ascensor.png);
+	background-attachment: relative;
+	background-position: center center;
 	width: 100%;
-	background-size:100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+			-moz-background-size: 100%;
+				-o-background-size: 100%;
+	background-repeat: no-repeat;
+	min-height: 496px;
+}
+
+.ascensor img{
+margin-left: 20px;
+
+}
+.ascensor li{
 	padding-left: 20px;
-}
-	.ascensor img, .ascensor2 img{
-		text-align: center;
-		float: center;
-		padding-bottom: 40px;
-		padding-top: 20px;
-		padding-left: 20px;
+	list-style-image: url(library/img/btn-asc.png);
+}	
+.ascensor li a{
 
-	}
-	.ascensor img:last-child, .ascensor2 img:last-child {
-		margin-left: 60px;
-		padding-top: 0px;
-	}
-.ascensor li, .ascensor2 li{
-
-	background: url(library/img/btn-asc.png) no-repeat 0px 0px transparent;
-    list-style-type: none;
-    margin: 0;
-    padding: 0px 10px 5px 40px;
-    vertical-align: middle;
-    margin-bottom: 10px;
+	color: #000;
+	font-weight: 300;
+	font-size: 14px;
+	text-decoration: none;
 }
-.ascensor2 li{
-	padding: 0px 1px 10px 30px;
+.ascensor li a, .ascensor li{
+	vertical-align: top;
 }
-	.ascensor li:hover, .ascensor2 li:hover{
-		background: url(library/img/btn-asc_hover.png) no-repeat 0px 0px transparent;
-	}
-	.ascensor li a, .ascensor2 li a{
-		text-decoration: none;
-		margin: 0px;
-		color: gray;
-		text-shadow:1px 1px 1px #ffffff;
-		font-weight: 300;
-	}
-		.ascensor li ul, .ascensor2 li ul{
-			margin: 0px;
-			display:none;
-			position:absolute;
-			padding-left: 170px;
-			margin-top: -20px;
-		}
-		.ascensor li:hover > ul{
-			display:block;
-
-		}
-		.ascensor li ul li, .ascensor2 li ul li{
-			list-style: none;
-			padding-bottom: 10px;
-			margin-bottom: 5px;
-		}
+.ascensor li ul{
+	display: none;
+}
+/* Ascendor */
 
 .direcciones__contacto{
 	text-align: center;
@@ -254,7 +254,7 @@ Tags: wordpress, html5, css3, jquery, javascript, suwwweb
 
 .bottom_listado{
 	text-align: center;
-	margin-top: -70px;
+	margin-top: -40px;
 }
 .bottom_listado img{
 	cursor: pointer;
@@ -401,8 +401,34 @@ a img.aligncenter {
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
 		.popup_inicio{
 			max-width: 100%;
+		}
+		.content__admin{
+			padding-top: 0px;
+		}
+		ul.ascensor{
+			padding-top: 0px;
+		}
+		.ascensor{
+			min-height: 100%;
+			background: none;
+			text-align: center;
+		}
+		.ascensor img{
+			display: none;;
+		}
+		.ascensor li{
+			padding: 5px 0px;
+			list-style:none; 
+			border: 1px solid #113175;
+			background: rgba(22,37,72,0.8);
+		}
+		.ascensor li a{
+			width: 100%;
+			
+			color: #fff;
 		}
 	}
 
@@ -412,6 +438,31 @@ a img.aligncenter {
 			max-width: 100%;
 		}
 		.front__page{
-			height: 600px;
+			height: 800px;
+		}
+		.content__admin{
+			padding-top: 0px;
+		}
+		ul.ascensor{
+			padding-top: 0px;
+		}
+		.ascensor{
+			min-height: 100%;
+			background: none;
+			text-align: center;
+		}
+		.ascensor img{
+			display: none;;
+		}
+		.ascensor li{
+			padding: 5px 0px;
+			list-style:none; 
+			border: 1px solid #113175;
+			background: rgba(22,37,72,0.8);
+		}
+		.ascensor li a{
+			width: 100%;
+
+			color: #fff;
 		}
 	}
