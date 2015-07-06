@@ -44,7 +44,7 @@ Tags: wordpress, html5, css3, jquery, javascript, suwwweb
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center center;
-	min-height: 1049px;
+	height: 1049px;
 	width: 100%;
 	background-size: 100%;
 		-webkit-background-size: 100%;
@@ -191,7 +191,7 @@ Tags: wordpress, html5, css3, jquery, javascript, suwwweb
 	background: url(library/img/btn-asc.png) no-repeat 0px 0px transparent;
     list-style-type: none;
     margin: 0;
-    padding: 0px 10px 30px 40px;
+    padding: 0px 10px 5px 40px;
     vertical-align: middle;
     margin-bottom: 10px;
 }
@@ -208,13 +208,21 @@ Tags: wordpress, html5, css3, jquery, javascript, suwwweb
 		text-shadow:1px 1px 1px #ffffff;
 		font-weight: 300;
 	}
-
 		.ascensor li ul, .ascensor2 li ul{
 			margin: 0px;
+			display:none;
+			position:absolute;
+			padding-left: 170px;
+			margin-top: -20px;
+		}
+		.ascensor li:hover > ul{
+			display:block;
+
 		}
 		.ascensor li ul li, .ascensor2 li ul li{
 			list-style: none;
-			display: none;
+			padding-bottom: 10px;
+			margin-bottom: 5px;
 		}
 
 .direcciones__contacto{
@@ -233,7 +241,16 @@ Tags: wordpress, html5, css3, jquery, javascript, suwwweb
 		margin-bottom: 0px;
 	}
 
-
+.email_form{
+	text-align: center;
+	margin-top: 20px;
+}
+.email_form a{
+	color: #000;
+}
+.email_form a:hover{
+	color: #656568;
+}
 footer{}
 
 .copyright{
@@ -381,5 +398,8 @@ a img.aligncenter {
 	@media only screen and (max-width: 479px) {
 		.popup_inicio{
 			max-width: 100%;
+		}
+		.front__page{
+			height: 600px;
 		}
 	}

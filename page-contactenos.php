@@ -37,7 +37,7 @@
             $emailTo = 'info@paantec.com';
         }
         $subject = '[Contacto Paantec] From '.$name;
-        $body = "Nombre: $name \n\nEmail: $email \n\nTeléfino: $telefono \n\nComments: $comments";
+        $body = "Nombre: $name \n\nEmail: $email \n\nTeléfono: $telefono \n\nMensaje: $comments";
         $headers = 'From: '.$name.' <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
         wp_mail($emailTo, $subject, $body, $headers);
         $emailSent = true;
@@ -104,6 +104,10 @@
                 </div>
                 <?php } ?>
 
+                <div class="email_form">
+                    <p>Escribenos a: <a href="mailto:info@paantec.com">info@paantec.com</a></p>
+                </div>
+                    
                 <form action="<?php the_permalink(); ?>" id="contactForm" method="post">
                     <fieldset>
 
