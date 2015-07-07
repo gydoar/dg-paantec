@@ -19,7 +19,7 @@
 
 					<li><a href="<?php echo home_url('/modernizacion-int/ubicacion-de-elementos/' ); ?>">Ubicación de elementos</a></li>
 
-					<li><a href="<?php echo home_url('/midernizacion-int/modernizacion-de-control-electrico' ); ?>">Modernización de Contro Eléctrico</a></li>
+					<li><a href="<?php echo home_url('/midernizacion-int/modernizacion-de-control-electrico' ); ?>">Modernización de Control Eléctrico</a></li>
 
 					<li><a href="<?php echo home_url('/modernizacion-int/resultados-visibles/' ); ?>">Resultados visibles</a></li>
 
@@ -29,7 +29,7 @@
 
 					<li><a href="<?php echo home_url('/modernizacion-int/elementos-de-seguridad-a-actulizar/' ); ?>">Elementos de seguridad a actualizar</a></li>
 
-					<li><a href="<?php echo home_url('/modernizacion-int/actualizacion-de-elementos-de-seguridad/' ); ?>">Actialización de elementos de seguridad</a></li>
+					<li><a href="<?php echo home_url('/modernizacion-int/actualizacion-de-elementos-de-seguridad/' ); ?>">Actualización de elementos de seguridad</a></li>
 
 				</ul>
 			</div>

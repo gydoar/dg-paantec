@@ -194,7 +194,6 @@ ul.ascensor{
 	padding-top: 20px;
 }
 .ascensor{
-
 	background: url(library/img/ascensor.png);
 	background-attachment: relative;
 	background-position: center center;
@@ -412,7 +411,9 @@ a img.aligncenter {
 	@media only screen and (min-width: 768px) and (max-width: 959px) {}
 
 	/* All Mobile Sizes (devices and browser) */
-	@media only screen and (max-width: 767px) {}
+	@media only screen and (max-width: 767px) {
+
+	}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -425,6 +426,9 @@ a img.aligncenter {
 		}
 		ul.ascensor{
 			padding-top: 0px;
+			bottom: 0;
+			left: 0;
+
 		}
 		.ascensor{
 			min-height: 100%;
@@ -444,6 +448,15 @@ a img.aligncenter {
 			width: 100%;
 			
 			color: #fff;
+		}
+		.scrollup {
+			background: none;
+		}
+		.header{
+			height: 150px;
+		}
+		.page__background{
+			padding-top: 190px;
 		}
 	}
 
@@ -470,6 +483,7 @@ a img.aligncenter {
 			display: none;;
 		}
 		.ascensor li{
+			margin-bottom: 2px;
 			padding: 5px 0px;
 			list-style:none; 
 			border: 1px solid #113175;
@@ -477,7 +491,16 @@ a img.aligncenter {
 		}
 		.ascensor li a{
 			width: 100%;
-
 			color: #fff;
 		}
+		.scrollup {
+			background: none;
+		}
+		.header{
+			height: 150px;
+		}
+		.page__background{
+			padding-top: 190px;
+		}
+
 	}

@@ -13,7 +13,7 @@
  				if ( $paged >= 2 || $page >= 2 ) echo ' | ' . sprintf( __( 'Page %s', 'nakeme' ), max( $paged, $page ) ); 
  		?>
  	</title>
- 	
+
  	<link rel="apple-touch-icon" href="<?php bloginfo('template_url' ); ?>/library/img/apple-touch-icon.png">
  	<link rel="icon" type="image/png" href="<?php bloginfo('template_url' ); ?>/library/img/favicon.ico">
 
@@ -30,7 +30,11 @@
 <body>
 
 <header class="header">
-	<h1><a href="<?php echo home_url('/' ); ?>"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/logo.png" alt=""></a></h1></a>
+	<?php if (is_page('23')){ ?>
+		<h1><a href="<?php echo home_url('/' ); ?>"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/logo_tekno.png" alt=""></a></h1>
+	<?php } else{ ?>	
+	 	<h1><a href="<?php echo home_url('/' ); ?>"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/logo.png" alt=""></a></h1>
+	<?php } ?>
 
 	<!-- Memu -->
 		<div>
