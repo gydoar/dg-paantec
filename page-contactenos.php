@@ -105,7 +105,7 @@
                 <?php } ?>
 
                 <div class="email_form">
-                    <p>Escribenos a: <a href="mailto:info@paantec.com">info@paantec.com</a></p>
+                    <p>Escríbenos a: <a href="mailto:info@paantec.com">info@paantec.com</a></p>
                 </div>
                     
                 <form action="<?php the_permalink(); ?>" id="contactForm" method="post">

@@ -103,9 +103,10 @@ Tags: wordpress, html5, css3, jquery, javascript, suwwweb
 
 
 .header{
+	padding-top: 40px;
 	background: url(library/img/malla.jpg);
 	background-attachment: relative;
-	min-height: 200px;
+	height: 220px;
 	overflow: hidden;
 	width: 100%;
 	background-size: 100%;
@@ -114,6 +115,8 @@ Tags: wordpress, html5, css3, jquery, javascript, suwwweb
 				-o-background-size: 100%;
 	background-size: cover;
 	text-align: center;
+	position: fixed;
+	z-index: 1;
 }
 	.header img{
 		padding-top: 20px;
@@ -132,6 +135,8 @@ Tags: wordpress, html5, css3, jquery, javascript, suwwweb
 			-moz-background-size: 100%;
 				-o-background-size: 100%;
 	background-size: cover;
+	padding-top: 250px;
+	z-index: 500;
 
 }
 .color__content{
@@ -260,7 +265,17 @@ margin-left: 20px;
 	cursor: pointer;
 	margin-bottom: 20px;
 }
+.scrollup {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+    display: none;
+    text-indent: -9999px;
+    background: url(library/img/btn-top.png) no-repeat;
 
+}
 
 
 footer{}

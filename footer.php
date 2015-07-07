@@ -1,4 +1,6 @@
-
+<div class="container">
+	<a href="#" class="scrollup"><img width="60" src="<?php bloginfo('template_url' ); ?>/library/img/btn-top.png" alt=""></a>
+</div>
 
 
 <!-- script -->
@@ -11,6 +13,27 @@
 <!--/ script -->
 
 <!-- Scripts Adiconales -->
+<!-- Scroll top -->
+<script>
+	$(document).ready(function () {
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.scrollup').fadeIn();
+        } else {
+            $('.scrollup').fadeOut();
+        }
+    });
+
+    $('.scrollup').click(function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+    });
+
+});
+</script>
 
 <script>
 	
