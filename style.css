@@ -213,6 +213,9 @@ margin-left: 20px;
 .ascensor li{
 	padding-left: 20px;
 	list-style-image: url(library/img/btn-asc.png);
+}
+.ascensor li:hover{
+	list-style-image: url(library/img/btn-asc_hover.png);
 }	
 .ascensor li a{
 
@@ -273,7 +276,13 @@ margin-left: 20px;
     display: none;
     text-indent: -9999px;
     background: url(library/img/btn-top.png) no-repeat;
-
+}
+.float{
+	position: fixed;
+	max-width: 200px;
+}
+.float-right{
+	float: right;
 }
 
 
@@ -458,6 +467,13 @@ a img.aligncenter {
 		.page__background{
 			padding-top: 190px;
 		}
+		.ascensor li:hover{
+			list-style-image: none;
+		}
+		.float{
+			position: relative;
+			max-width: 100%;
+		}
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -501,6 +517,13 @@ a img.aligncenter {
 		}
 		.page__background{
 			padding-top: 190px;
+		}
+		.ascensor li:hover{
+			list-style-image: none;
+		}
+		.float{
+			position: relative;
+			max-width: 100%;
 		}
 
 	}

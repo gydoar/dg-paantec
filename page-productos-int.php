@@ -12,7 +12,7 @@
 	<div class="container color__content">
 		
 		<div class="content__admin">
-			<div class="three columns">
+			<div class="three columns float">
 				<ul class="ascensor">
 					<img width="150" src="<?php bloginfo('template_url' ); ?>/library/img/logo.png" alt="">
 					<br><br>
@@ -43,7 +43,7 @@
 
 				</ul>
 			</div>
-			<div class="nine columns">
+			<div class="nine columns float-right">
 
 				 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 					
