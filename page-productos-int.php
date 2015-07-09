@@ -23,7 +23,7 @@
 						</ul>
 					</li>
 
-					<li><a href="<?php echo home_url('/productos-int/equipos-para-discapacitados/' ); ?>">Equipos para discapacitados</a>
+					<li><a href="<?php echo home_url('/productos-int/equipos-para-discapacitados/' ); ?>">Equipos para <span>discapacitados</span></a>
 						<ul>
 							<li><a href="">Plataforma salva escaleras</a></li>
 							<li><a href="">Plataforma elevadora</a></li>
@@ -39,7 +39,7 @@
 						</ul>
 					</li>
 
-					<li><a href="<?php echo home_url('/productos-int/escaleras-electricas-y-andenes-moviles' ); ?>">Escaleras eléctricas y andenes móviles</a></li>
+					<li><a href="<?php echo home_url('/productos-int/escaleras-electricas-y-andenes-moviles' ); ?>">Escaleras eléctricas y <span>andenes móviles</span></a></li>
 
 				</ul>
 			</div>

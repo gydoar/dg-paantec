@@ -123,7 +123,6 @@ Tags: wordpress, html5, css3, jquery, javascript, suwwweb
 	}
 
 .page__background{
-	margin-top: -30px;
 	background: url(library/img/fondo_paantec.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -211,7 +210,8 @@ margin-left: 20px;
 
 }
 .ascensor li{
-	padding-left: 20px;
+	margin-bottom: 6px;
+	padding-left: 10px;
 	list-style-image: url(library/img/btn-asc.png);
 }
 .ascensor li:hover{
@@ -285,7 +285,11 @@ margin-left: 20px;
 	float: right;
 }
 
-
+.ascensor span{
+	margin-left: 35px;
+	top: -15px;
+	position: relative;
+}
 footer{}
 
 .copyright{
@@ -454,18 +458,17 @@ a img.aligncenter {
 			background: rgba(22,37,72,0.8);
 		}
 		.ascensor li a{
-			width: 100%;
-			
+			width: 100%;		
 			color: #fff;
 		}
 		.scrollup {
 			background: none;
 		}
 		.header{
-			height: 150px;
+			height: 100px;
 		}
 		.page__background{
-			padding-top: 190px;
+			padding-top: 140px;
 		}
 		.ascensor li:hover{
 			list-style-image: none;
@@ -473,6 +476,14 @@ a img.aligncenter {
 		.float{
 			position: relative;
 			max-width: 100%;
+		}
+		.header img{	
+			padding-top: 20px;
+			width: 150px;
+		}
+		.ascensor span{
+			margin-left: 0px;
+			top: 0px;
 		}
 	}
 
@@ -513,10 +524,10 @@ a img.aligncenter {
 			background: none;
 		}
 		.header{
-			height: 150px;
+			height: 100px;
 		}
 		.page__background{
-			padding-top: 190px;
+			padding-top: 140px;
 		}
 		.ascensor li:hover{
 			list-style-image: none;
@@ -525,5 +536,12 @@ a img.aligncenter {
 			position: relative;
 			max-width: 100%;
 		}
-
+		.header img{
+			padding-top: 20px;
+			width: 150px;
+		}
+		.ascensor span{
+			margin-left: 0px;
+			top: 0px;
+		}
 	}
