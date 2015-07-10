@@ -16,28 +16,13 @@
 				<ul class="ascensor">
 					<img width="150" src="<?php bloginfo('template_url' ); ?>/library/img/logo.png" alt="">
 					<br><br>
-					<li><a href="<?php echo home_url('/productos-int/ascensores' ); ?>">Ascensores</a>
-						<ul>
-							<li><a href="<?php echo home_url('/productos-int#electromecanicos') ?>">Electromecánicos</a></li>
-							<li><a href="">Hidráulicos</a></li>
-						</ul>
-					</li>
+					<li><a href="<?php echo home_url('/productos-int/ascensores' ); ?>">Ascensores</a></li>
 
-					<li><a href="<?php echo home_url('/productos-int/equipos-para-discapacitados/' ); ?>">Equipos para <span>discapacitados</span></a>
-						<ul>
-							<li><a href="">Plataforma salva escaleras</a></li>
-							<li><a href="">Plataforma elevadora</a></li>
-						</ul>
-					</li>
+					<li><a href="<?php echo home_url('/productos-int/equipos-para-discapacitados/' ); ?>">Equipos para <span>discapacitados</span></a></li>
 
 					<li><a href="<?php echo home_url('/productos-int/montacargas/' ); ?>">Montacargas</a></li>
 
-					<li><a href="<?php echo home_url('/productos-int/sistemas-para-vehiculos/' ); ?>">Sistema para Vehículos</a>
-						<ul>
-							<li><a href="">Montacoches</a></li>
-							<li><a href="">Sistemas de parqueo</a></li>
-						</ul>
-					</li>
+					<li><a href="<?php echo home_url('/productos-int/sistemas-para-vehiculos/' ); ?>">Sistema para Vehículos</a></li>
 
 					<li><a href="<?php echo home_url('/productos-int/escaleras-electricas-y-andenes-moviles' ); ?>">Escaleras eléctricas y <span>andenes móviles</span></a></li>
 

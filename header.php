@@ -13,7 +13,6 @@
  				if ( $paged >= 2 || $page >= 2 ) echo ' | ' . sprintf( __( 'Page %s', 'nakeme' ), max( $paged, $page ) ); 
  		?>
  	</title>
- 	<meta name="description" content="<?php bloginfo('description' ); ?>">
 
  	<link rel="apple-touch-icon" href="<?php bloginfo('template_url' ); ?>/library/img/apple-touch-icon.png">
  	<link rel="icon" type="image/png" href="<?php bloginfo('template_url' ); ?>/library/img/favicon.ico">
