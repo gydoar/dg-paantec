@@ -16,11 +16,11 @@
 				<ul class="ascensor">
 					<img width="150" src="<?php bloginfo('template_url' ); ?>/library/img/logo.png" alt="">
 					<br><br>
-					<li><a href="<?php echo home_url('/productos-int/ascensores' ); ?>">Ascensores</a></li>
+					<li style="padding-bottom:10px;"><a href="<?php echo home_url('/productos-int/ascensores' ); ?>">Ascensores</a></li>
 
 					<li><a href="<?php echo home_url('/productos-int/equipos-para-discapacitados/' ); ?>">Equipos para <span>discapacitados</span></a></li>
 
-					<li><a href="<?php echo home_url('/productos-int/montacargas/' ); ?>">Montacargas</a></li>
+					<li style="padding-bottom:10px;"><a href="<?php echo home_url('/productos-int/montacargas/' ); ?>">Montacargas</a></li>
 
 					<li><a href="<?php echo home_url('/productos-int/sistemas-para-vehiculos/' ); ?>">Sistema para <span>Vehículos</span></a></li>
 
