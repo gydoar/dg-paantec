@@ -200,7 +200,7 @@ function optionsframework_options() {
 					<p>(+57 7) 643 2036</p>
 					<br>
 					<h6><strong>PANAMÁ</strong></h6>
-					<h6><strong>Ciudad de Panamá<strong></h6>
+					<h6><strong>Ciudad de Panamá</strong></h6>
 					<p>Obarrio Calle 61 Casa 29</p>
 					<p>(+507) 265 5161</p>',
 		'type' => 'textarea'

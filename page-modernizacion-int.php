@@ -18,17 +18,17 @@
 					<br><br>
 					<!-- <li><a href="<?php echo home_url('/modernizacion-int/por-que-modernizar/' ); ?>">Modernizar tu ascensor</a></li> -->
 
-					<li><a href="<?php echo home_url('/modernizacion-int/ubicacion-de-elementos/' ); ?>">Ubicación de elementos</a></li><br>
+					<li><a href="<?php echo home_url('/modernizacion-int/ubicacion-de-elementos/' ); ?>">Ubicación de <span>elementos</span></a></li>
 
 					<li><a href="<?php echo home_url('/midernizacion-int/modernizacion-de-control-electrico' ); ?>">Modernización de <span>Control Eléctrico</span></a></li>
 
-					<li><a href="<?php echo home_url('/modernizacion-int/resultados-visibles/' ); ?>">Resultados visibles</a></li><br>
+					<li><a href="<?php echo home_url('/modernizacion-int/resultados-visibles/' ); ?>">Resultados visibles</a></li>
 
-					<li><a href="<?php echo home_url('modernizacion-int/modernizar-la-cabina-del-ascensor/') ?>">Modernizar la cabina</a></li><br>
+					<li><a href="<?php echo home_url('modernizacion-int/modernizar-la-cabina-del-ascensor/') ?>">Modernizar la cabina</a></li>
 
 					<!--<li><a href="<?php echo home_url('/modernizacion-int/remodelacion-de-cabina/' ); ?>">Remodelación de <span>Cabina</span></a></li> -->
 
-					<li><a href="<?php echo home_url('/modernizacion-int/elementos-de-seguridad-a-actulizar/' ); ?>">Elementos de seguridad <span>a actualizar</span></a></li>
+					<li><a href="<?php echo home_url('/modernizacion-int/elementos-de-seguridad-a-actulizar/' ); ?>">Elementos de <span>seguridad</span></a></li>
 
 					<!--<li><a href="<?php echo home_url('/modernizacion-int/actualizacion-de-elementos-de-seguridad/' ); ?>">Actualización de <span>elementos de seguridad</span></a></li> -->
 
