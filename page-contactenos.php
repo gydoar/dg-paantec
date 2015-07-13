@@ -56,35 +56,11 @@
 
 			<div class="row direcciones__contacto">
 				<div class="six columns">
-					<h6><strong>Bogotá</strong></h6>
-					<p>Oficinas administrativas</p>
-					<p><?php echo of_get_option('dir_bogota'); ?></p>
-					<p><?php echo of_get_option('tel_bogota'); ?></p>
-                    <br>
-
-					<h6><strong>Cali</strong></h6>
-					<p><?php echo of_get_option('dir_cali'); ?></p>
-					<p><?php echo of_get_option('tel_cali'); ?></p>
-                    <br>
-					<h6><strong>Costa Atlántica</strong></h6>
-					<p><?php echo of_get_option('dir1_costa'); ?></p>
-					<p><?php echo of_get_option('dir2_costa'); ?></p>
-					<p><?php echo of_get_option('tel_costa'); ?></p>
+					<?php echo of_get_option('cont_izq'); ?>
 				</div>
 
 				<div class="six columns">
-					<h6><strong>Planta de Producción</strong></h6>
-					<p><?php echo of_get_option('dir_pro_bogota'); ?></p>
-					<p><?php echo of_get_option('tel_pro_bogota'); ?></p>
-                    <br>
-					<h6><strong>Bucaramanga</strong></h6>
-					<p><?php echo of_get_option('dir_bucara'); ?></p>
-					<p><?php echo of_get_option('tel_bucara'); ?></p>
-                    <br>
-					<h6><strong>PANAMÁ</strong><br>
-					<strong>Ciudad de Panamá</strong></h6>
-					<p><?php echo of_get_option('dir_panama'); ?></p>
-					<p><?php echo of_get_option('tel_panama'); ?></p>
+			         <?php echo of_get_option('cont_der'); ?>
 				</div>
 			</div>
 

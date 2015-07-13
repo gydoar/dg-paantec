@@ -40,10 +40,7 @@ Tags: wordpress, html5, css3, jquery, javascript, suwwweb
 		font-family: "Futura BT", Verdana, Geneva, sans-serif;
 	}
 .front__page{
-	background: url(library/img/fondo_paantec.jpg);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center center;
+	background: url(library/img/fondo_paantec.jpg) no-repeat fixed center;
 	height: 1049px;
 	width: 100%;
 	background-size: 100%;
@@ -51,7 +48,12 @@ Tags: wordpress, html5, css3, jquery, javascript, suwwweb
 			-moz-background-size: 100%;
 				-o-background-size: 100%;
 	background-size: cover;
+		-webkit-background-size: cover;
+			-o-background-size: cover;
+				-moz-background-size: cover;
 	text-align: center;
+	top: 0;
+	left: 0;
 }
 .font__page__logo img{
 	padding-top: 100px;
@@ -103,7 +105,6 @@ Tags: wordpress, html5, css3, jquery, javascript, suwwweb
 
 
 .header{
-	padding-top: 40px;
 	background: url(library/img/malla.jpg);
 	background-attachment: relative;
 	height: 220px;
@@ -123,10 +124,7 @@ Tags: wordpress, html5, css3, jquery, javascript, suwwweb
 	}
 
 .page__background{
-	background: url(library/img/fondo_paantec.jpg);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center center;
+	background: url(library/img/fondo_paantec.jpg) no-repeat fixed center;
 	min-height: 100%;
 	width: 100%;
 	background-size: 100%;
@@ -134,13 +132,16 @@ Tags: wordpress, html5, css3, jquery, javascript, suwwweb
 			-moz-background-size: 100%;
 				-o-background-size: 100%;
 	background-size: cover;
-	padding-top: 250px;
+		-webkit-background-size: cover;
+			-o-background-size: cover;
+				-moz-background-size: cover;
+	padding-top: 220px;
 	z-index: 500;
 
 }
 .color__content{
 	background: url(library/img/fondo_degradado.png);
-	height: 100%;
+	min-height: 600px;
 	width: 100%;
 	background-size: 100%;
 	background-repeat: repeat-y;
@@ -485,6 +486,9 @@ a img.aligncenter {
 			margin-left: 0px;
 			top: 0px;
 		}
+		.header{
+			padding-top: 40px;
+		}
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -535,6 +539,9 @@ a img.aligncenter {
 		.float{
 			position: relative;
 			max-width: 100%;
+		}
+		.header{
+			padding-top: 40px;
 		}
 		.header img{
 			padding-top: 20px;

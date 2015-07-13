@@ -15,7 +15,8 @@
 			<div class="three columns float">
 				<ul class="ascensor">
 					<img width="150" src="<?php bloginfo('template_url' ); ?>/library/img/logo.png" alt="">
-					<li><a href="<?php echo home_url('/modernizacion-int/por-que-modernizar/' ); ?>">Modernizar tu ascensor</a></li>
+					<br><br>
+					<!-- <li><a href="<?php echo home_url('/modernizacion-int/por-que-modernizar/' ); ?>">Modernizar tu ascensor</a></li> -->
 
 					<li><a href="<?php echo home_url('/modernizacion-int/ubicacion-de-elementos/' ); ?>">Ubicación de elementos</a></li>
 
@@ -23,13 +24,13 @@
 
 					<li><a href="<?php echo home_url('/modernizacion-int/resultados-visibles/' ); ?>">Resultados visibles</a></li>
 
-					<li><a href="<?php echo home_url('modernizacion-int/modernizar-la-cabina-del-ascensor/') ?>">Modernizar la cabina <span>del ascensor</span></a></li>
+					<li><a href="<?php echo home_url('modernizacion-int/modernizar-la-cabina-del-ascensor/') ?>">Modernizar la cabina</a></li>
 
-					<li><a href="<?php echo home_url('/modernizacion-int/remodelacion-de-cabina/' ); ?>">Remodelación de <span>Cabina</span></a></li>
+					<!--<li><a href="<?php echo home_url('/modernizacion-int/remodelacion-de-cabina/' ); ?>">Remodelación de <span>Cabina</span></a></li> -->
 
 					<li><a href="<?php echo home_url('/modernizacion-int/elementos-de-seguridad-a-actulizar/' ); ?>">Elementos de seguridad <span>a actualizar</span></a></li>
 
-					<li><a href="<?php echo home_url('/modernizacion-int/actualizacion-de-elementos-de-seguridad/' ); ?>">Actualización de <span>elementos de seguridad</span></a></li>
+					<!--<li><a href="<?php echo home_url('/modernizacion-int/actualizacion-de-elementos-de-seguridad/' ); ?>">Actualización de <span>elementos de seguridad</span></a></li> -->
 
 				</ul>
 			</div>

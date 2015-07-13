@@ -159,6 +159,8 @@ function optionsframework_options() {
 		'type' => 'upload'
 	);
 
+
+
 	//Contacto
 	$options[] = array(
 		'name' => __( 'CONTACTENOS', 'theme-textdomain' ),
@@ -166,108 +168,44 @@ function optionsframework_options() {
 	);
 
 	$options[] = array(
-		'name' => __( 'Dirección en bogotá', 'theme-textdomain' ),
+		'name' => __( 'Contacto Izquierda', 'theme-textdomain' ),
 		'desc' => __( '', 'theme-textdomain' ),
-		'id' => 'dir_bogota',
-		'std' => 'Calle 90 No. 19A - 49. Oficina 805',
-		'type' => 'text'
+		'id' => 'cont_izq',
+		'std' => '<h6><strong>Bogotá</strong></h6>
+					<p>Oficinas administrativas</p>
+					<p>Calle 90 No. 19A - 49. Oficina 805</p>
+					<p>PBX:(+57 1) 257 15 11</p>
+					<br>	
+					<h6><strong>Cali</strong></h6>
+					<p>Holguines Trade Center, Torre Valle del Lili · Of 315</p>
+					<p>(+57 2) 315 6084</p>
+					<br>
+					<h6><strong>Costa Atlántica</strong></h6>
+					<p>Edificio Fidenze - Barranquilla</p>
+					<p>Cra. 53 No. 74 – 135. Piso 2, Local 8</p>
+					<p>(+57 5) 368 6180 - 368 4675</p>',
+		'type' => 'textarea'
 	);
 
 	$options[] = array(
-		'name' => __( 'Teléfonos en bogotá', 'theme-textdomain' ),
+		'name' => __( 'Contacto Derecha', 'theme-textdomain' ),
 		'desc' => __( '', 'theme-textdomain' ),
-		'id' => 'tel_bogota',
-		'std' => 'PBX: (+571) 257 15 11',
-		'type' => 'text'
+		'id' => 'cont_der',
+		'std' => '<h6><strong>Planta de Producción</strong></h6>
+					<p>Calle 15 No. 36 - 68</p>
+					<p>PBX: (+57 1) 370 30 20</p>
+					<br>	
+					<h6><strong>Bucaramanga</strong></h6>
+					<p>Calle 51 No. 35 - 28 · INT 100 · Of 324</p>
+					<p>(+57 7) 643 2036</p>
+					<br>
+					<h6><strong>PANAMÁ</strong></h6>
+					<h6><strong>Ciudad de Panamá<strong></h6>
+					<p>Obarrio Calle 61 Casa 29</p>
+					<p>(+507) 265 5161</p>',
+		'type' => 'textarea'
 	);
 	
-	$options[] = array(
-		'name' => __( 'Dirección planta producción bogotá', 'theme-textdomain' ),
-		'desc' => __( '', 'theme-textdomain' ),
-		'id' => 'dir_pro_bogota',
-		'std' => 'Calle 15 No. 36 - 68',
-		'type' => 'text'
-	);
-
-	$options[] = array(
-		'name' => __( 'Teléfono planta producción bogotá', 'theme-textdomain' ),
-		'desc' => __( '', 'theme-textdomain' ),
-		'id' => 'tel_pro_bogota',
-		'std' => 'PBX: (+571) 370 30 20',
-		'type' => 'text'
-	);
-
-	$options[] = array(
-		'name' => __( 'Dirección cali', 'theme-textdomain' ),
-		'desc' => __( '', 'theme-textdomain' ),
-		'id' => 'dir_cali',
-		'std' => 'Holguines Trade Center, Torre Valle del Lili · Of 315',
-		'type' => 'text'
-	);
-
-	$options[] = array(
-		'name' => __( 'Teléfono cali', 'theme-textdomain' ),
-		'desc' => __( '', 'theme-textdomain' ),
-		'id' => 'tel_cali',
-		'std' => '(+572) 315 6084',
-		'type' => 'text'
-	);
-
-	$options[] = array(
-		'name' => __( 'Dirección 1 Costa Atlantica', 'theme-textdomain' ),
-		'desc' => __( '', 'theme-textdomain' ),
-		'id' => 'dir1_costa',
-		'std' => 'Edificio Fidenze - Barranquilla',
-		'type' => 'text'
-	);
-
-	$options[] = array(
-		'name' => __( 'Dirección 2 Costa Atlantica', 'theme-textdomain' ),
-		'desc' => __( '', 'theme-textdomain' ),
-		'id' => 'dir2_costa',
-		'std' => 'Cra. 53 No. 74 – 135. Piso 2, Local 8',
-		'type' => 'text'
-	);
-
-	$options[] = array(
-		'name' => __( 'Teléfonos Costa Atlantica', 'theme-textdomain' ),
-		'desc' => __( '', 'theme-textdomain' ),
-		'id' => 'tel_costa',
-		'std' => '(+575) 368 6180 - 368 4675',
-		'type' => 'text'
-	);
-
-	$options[] = array(
-		'name' => __( 'Dirección Bucaramanga', 'theme-textdomain' ),
-		'desc' => __( '', 'theme-textdomain' ),
-		'id' => 'dir_bucara',
-		'std' => 'Calle 51 No. 35 - 28 · INT 100 · Of 324',
-		'type' => 'text'
-	);
-
-	$options[] = array(
-		'name' => __( 'Teléfonos Bucaramanga', 'theme-textdomain' ),
-		'desc' => __( '', 'theme-textdomain' ),
-		'id' => 'tel_bucara',
-		'std' => '(+577) 643 2036',
-		'type' => 'text'
-	);
-
-	$options[] = array(
-		'name' => __( 'Dirección Panamá', 'theme-textdomain' ),
-		'desc' => __( '', 'theme-textdomain' ),
-		'id' => 'dir_panama',
-		'std' => 'Obarrio Calle 61 Casa 29',
-		'type' => 'text'
-	);
-
-	$options[] = array(
-		'name' => __( 'Teléfonos en Panamá', 'theme-textdomain' ),
-		'desc' => __( '', 'theme-textdomain' ),
-		'id' => 'tel_panama',
-		'std' => '(+507) 265 5161',
-		'type' => 'text'
-	);
 
 
 
