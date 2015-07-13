@@ -18,13 +18,13 @@
 					<br><br>
 					<!-- <li><a href="<?php echo home_url('/modernizacion-int/por-que-modernizar/' ); ?>">Modernizar tu ascensor</a></li> -->
 
-					<li><a href="<?php echo home_url('/modernizacion-int/ubicacion-de-elementos/' ); ?>">Ubicación de elementos</a></li>
+					<li><a href="<?php echo home_url('/modernizacion-int/ubicacion-de-elementos/' ); ?>">Ubicación de elementos</a></li><br>
 
 					<li><a href="<?php echo home_url('/midernizacion-int/modernizacion-de-control-electrico' ); ?>">Modernización de <span>Control Eléctrico</span></a></li>
 
-					<li><a href="<?php echo home_url('/modernizacion-int/resultados-visibles/' ); ?>">Resultados visibles</a></li>
+					<li><a href="<?php echo home_url('/modernizacion-int/resultados-visibles/' ); ?>">Resultados visibles</a></li><br>
 
-					<li><a href="<?php echo home_url('modernizacion-int/modernizar-la-cabina-del-ascensor/') ?>">Modernizar la cabina</a></li>
+					<li><a href="<?php echo home_url('modernizacion-int/modernizar-la-cabina-del-ascensor/') ?>">Modernizar la cabina</a></li><br>
 
 					<!--<li><a href="<?php echo home_url('/modernizacion-int/remodelacion-de-cabina/' ); ?>">Remodelación de <span>Cabina</span></a></li> -->
 
