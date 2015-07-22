@@ -18,13 +18,13 @@
 					<br><br>
 					<li style="padding-bottom:10px;"><a href="<?php echo home_url('/productos-int/ascensores' ); ?>">Ascensores</a></li>
 
-					<li><a href="<?php echo home_url('/productos-int/equipos-para-discapacitados/' ); ?>">Equipos para <span>discapacitados</span></a></li>
+					<li><a href="<?php echo home_url('/productos-int/equipos-para-discapacitados/' ); ?>">Equipos para <span>Discapacitados</span></a></li>
 
 					<li style="padding-bottom:10px;"><a href="<?php echo home_url('/productos-int/montacargas/' ); ?>">Montacargas</a></li>
 
 					<li><a href="<?php echo home_url('/productos-int/sistemas-para-vehiculos/' ); ?>">Sistema para <span>Vehículos</span></a></li>
 
-					<li><a href="<?php echo home_url('/productos-int/escaleras-electricas-y-andenes-moviles' ); ?>">Escaleras eléctricas y <span>andenes móviles</span></a></li>
+					<li><a href="<?php echo home_url('/productos-int/escaleras-electricas-y-andenes-moviles' ); ?>">Escaleras Eléctricas y <span>Andenes Móviles</span></a></li>
 
 				</ul>
 			</div>
